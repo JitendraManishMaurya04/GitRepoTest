@@ -1,10 +1,10 @@
 # GitRepoTest
 
-GIT CLI Chit-Codes:
+**GIT CLI Chit-Codes:**
 
-->Git clone Git_url               => Used to clone/copy the Repo to local directory
-->Git status                      => Used to check the status of any changes
-->Git add <file_name>               => Used to add the file changes in local Repo
+->Git clone Git_url                           => Used to clone/copy the Repo to local directory
+->Git status                                  => Used to check the status of any changes
+->Git add <file_name>                          => Used to add the file changes in local Repo
 ->Git Commit -m "Message"         => USed to commit chnges with message in Local Repo before Push
 ->Git push origin master          => Push to central repo
 ->Git Diff <file_name>              => Used to find the difference between previous and latest file
