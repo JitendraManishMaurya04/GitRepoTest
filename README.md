@@ -13,7 +13,7 @@
 ->**Git Checkout <file_Chksm_id>**    => Used to move to different file_id
 ->**Git Branch <Branch_Name>**          => Used to create a new Branch
 ->**Git Checkout <Branch_Name>**        => Used to move to particular branch
-->**Git Merge <Branch_Name> **          => Used to merge Branch to Master. For this we need to be in Master branch.
+->**Git Merge <Branch_Name>**          => Used to merge Branch to Master. For this we need to be in Master branch.
 
 =>Deleting Branches:
 	->**Git Branch -d "Branch_Name"**     => Deleting the Branch from local
@@ -23,7 +23,7 @@
 	Can be used to create a reference/historic point for your code taht you can refer in future.
 	When we want to create a release point for a stable version of code.
 	
-	->Git Tag <Tag_Name >                 => Used to create a normal tag
+	->Git Tag <Tag_Name>                 => Used to create a normal tag
 	->Git Tag -a <Tag_Name> -m "Message"  => Used to create a annotated tag with some message
 	->Git Tag                           => Used to display the list of tag in that branch
 	->Git Show <Tag_name>                 => Used to show the details of a particualr Tag
