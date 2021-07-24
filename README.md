@@ -1,6 +1,6 @@
 # GitRepoTest
 
-**GIT CLI Chit-Codes:**
+### GIT CLI Chit-Codes:
 
 	->Git clone Git_url                 => Used to clone/copy the Repo to local directory
 	->Git status                        => Used to check the status of any changes
