@@ -2,22 +2,22 @@
 
 **GIT CLI Chit-Codes:**
 
-->**Git clone Git_ur**l                           => Used to clone/copy the Repo to local directory
-->Git status                                  => Used to check the status of any changes
-->Git add <file_name>                          => Used to add the file changes in local Repo
-->Git Commit -m "Message"         => USed to commit chnges with message in Local Repo before Push
-->Git push origin master          => Push to central repo
-->Git Diff <file_name>              => Used to find the difference between previous and latest file
-->Git Log                         => Used to check the logs
-->git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'
-->Git Checkout <file_Chksm_id>    => Used to move to different file_id
-->Git Branch <Branch_Name>          => Used to create a new Branch
-->Git Checkout <Branch_Name>        => Used to move to particular branch
-->Git Merge <Branch_Name>           => Used to merge Branch to Master. For this we need to be in Master branch.
+->**Git clone Git_url**                          => Used to clone/copy the Repo to local directory
+->**Git status**                                  => Used to check the status of any changes
+->**Git add <file_name>**                        => Used to add the file changes in local Repo
+->**Git Commit -m "Message"**         => USed to commit chnges with message in Local Repo before Push
+->**Git push origin master**          => Push to central repo
+->**Git Diff <file_name>**              => Used to find the difference between previous and latest file
+->**Git Log**                         => Used to check the logs
+->**git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(reset) %><(55,trunc)%s%C(red)%d%C(reset) %C(blue)[%an]%C(reset) %C(yellow)%ad%C(reset)%n'**
+->**Git Checkout <file_Chksm_id>**    => Used to move to different file_id
+->**Git Branch <Branch_Name>**          => Used to create a new Branch
+->**Git Checkout <Branch_Name>**        => Used to move to particular branch
+->**Git Merge <Branch_Name> **          => Used to merge Branch to Master. For this we need to be in Master branch.
 
 =>Deleting Branches:
-	->Git Branch -d "Branch_Name"     => Deleting the Branch from local
-	->Git Push Origin --Delete "Branch_Name"  => Deleting the Branch from Remote Repo
+	->**Git Branch -d "Branch_Name"**     => Deleting the Branch from local
+	->**Git Push Origin --Delete "Branch_Name"**  => Deleting the Branch from Remote Repo
 	
 =>Creating Tag's in Git:
 	Can be used to create a reference/historic point for your code taht you can refer in future.
