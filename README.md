@@ -14,7 +14,7 @@
 	->Git Branch <Branch_Name>          => Used to create a new Branch
 	->Git Checkout <Branch_Name>        => Used to move to particular branch
 	->Git Merge <Branch_Name>           => Used to merge Branch to Master. For this we need to be in Master branch.
-
+	->Git remote add origin "URL"       => Linking the remote repo with local repo
 =>Deleting Branches:
 	Below are the steps to delete a branch.
 	
